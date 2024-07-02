@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <i class="fas fa-mortar-board fa-1x fa-fw header-icon"></i>
+            <div class="header-title">My Goals</div>
+        </div>
+        <div class="date-time">
+            <p><span data-testid="currentDay" id="current-day"></span>,</p>
+            <span data-testid="currentTimeUTC" id="utc-time"></span>
+        </div>
+    </header>
+    <main>
+        <section class="portfolio_info">
+            <img data-testid="slackProfilePicture" src="images/me.jpeg" alt="Profile Picture" id="profile-picture">
+            <h1 data-testid="slackDisplayName">@Nerat</h1>
+            <p data-testid="slackEmail">samuelfavour2013@gmail.com</p>
+        </section>
+        <section class="about">
+            <h2>Overview</h2>
+            <p>
+                <span class="greeting">Hello,</span> My name is Favour Samuel, and I'm a passionate and dedicated techie currently enrolled in the HNG 
+                Internship program. Over the next two years, I aim to become a proficient frontend and mobile developer. My goals are to expand my knowledge, contribute to the tech community, 
+                and build innovative projects. Below are a few of my goals.
+            </p>
+        </section>
+        <section class="goals">
+            <h2>My Tech Goals for the Next 2 Years</h2>
+            <div class="year-container">
+                <div>
+                    <h2>Year One</h2>
+                    <div class="year-breakdown">
+                        <div class="quarter-container">
+                            <h3>First Quarter</h3>
+                            <ul>
+                                <li>Secure an internship focused on frontend/mobile development</li>
+                                <li>Build foundational skills in HTML, CSS, and JavaScript</li>
+                                <li>Learn the basics of a frontend framework (React or Vue)</li>
+                                <li>Work on small projects to apply skills</li>
+                            </ul>
+                        </div>
+                        <div class="quarter-container">
+                            <h3>Second Quarter</h3>
+                            <ul>
+                                <li>Advance skills in chosen frontend framework</li>
+                                <li>Learn a mobile development framework (React Native or Flutter)</li>
+                                <li>Participate in hackathons or coding challenges</li>
+                                <li>Start contributing to open source projects</li>
+                            </ul>
+                        </div>
+                        <div class="quarter-container">
+                            <h3>Third Quarter</h3>
+                            <ul>
+                                <li>Build a complete frontend application</li>
+                                <li>Create a basic mobile app</li>
+                                <li>Learn about state management (Redux or Vuex)</li>
+                                <li>Keep learning and improving</li>
+                            </ul>
+                        </div>
+                        <div class="quarter-container">
+                            <h3>Fourth Quarter</h3>
+                            <ul>
+                                <li>Expand and update knowledge on current technologies</li>
+                                <li>Build a more complex project integrating frontend and mobile</li>
+                                <li>Share knowledge through blogs or tutorials</li>
+                                <li>Seek feedback and improve</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>Year Two</h2>
+                    <div class="year-breakdown">
+                        <div class="quarter-container">
+                            <h3>First Quarter</h3>
+                            <ul>
+                                <li>Deepen expertise in mobile development</li>
+                                <li>Build a production-ready mobile app</li>
+                                <li>Start learning backend development basics</li>
+                                <li>Integrate backend with frontend/mobile apps</li>
+                            </ul>
+                        </div>
+                        <div class="quarter-container">
+                            <h3>Second Quarter</h3>
+                            <ul>
+                                <li>Contribute to more advanced open source projects</li>
+                                <li>Participate in tech communities and events</li>
+                                <li>Build a complex, full-stack project</li>
+                                <li>Mentor junior developers</li>
+                            </ul>
+                        </div>
+                        <div class="quarter-container">
+                            <h3>Third Quarter</h3>
+                            <ul>
+                                <li>Learn advanced topics in frontend/mobile development</li>
+                                <li>Build something impactful and scalable</li>
+                                <li>Continue mentoring and giving back</li>
+                                <li>Keep up with the latest industry trends</li>
+                            </ul>
+                        </div>
+                        <div class="quarter-container">
+                            <h3>Fourth Quarter</h3>
+                            <ul>
+                                <li>Prepare for leadership roles in development teams</li>
+                                <li>Build a major project or join a significant team</li>
+                                <li>Refine and showcase your portfolio</li>
+                                <li>Reflect on progress and set new goals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="links">
+            <h2>Other Useful Links</h2>
+            <ul>
+                <li><a data-testid="hngLink" href="https://hng.tech/learn" target="_blank">HNG Tech Learn</a></li>
+                <li><a data-testid="keywordLink" href="https://keyword.dog" target="_blank">Keyword Dog</a></li>
+                <li><a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site" target="_blank">Scrape Any Web</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+

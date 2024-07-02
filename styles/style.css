@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #8a2be2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    width: 100%;
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon {
+    margin-right: 10px;
+}
+
+.date-time {
+    text-align: right;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio_info {
+    margin-bottom: 10px;
+}
+
+.portfolio_info img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+h1, h2 {
+    color: #8a2be2;
+    margin-bottom: 10px;
+}
+
+.about, .goals, .links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.greeting{
+    font-size: 30px;
+}
+.about p{
+    font-style: italic;
+}
+
+.year-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.year-breakdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quarter-container {
+    width: 45%;
+    min-width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #333;
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.links ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    .links ul {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 600px) {
+    header, main {
+        padding: 20px;
+    }
+    .portfolio_info img {
+        width: 60%;
+    }
+
+    .year-breakdown {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .quarter-container {
+        width: 100%;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #5d5a5a;
+    border-radius: 6px;
+    margin-block: .2rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(97, 90, 90), rgb(213, 211, 211));
+    border-radius: 6px;
+}
